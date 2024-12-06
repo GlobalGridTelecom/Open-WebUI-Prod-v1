@@ -348,9 +348,9 @@
 
 						<div class="flex items-center">
 							<select
-								class="w-full py-1 text-sm rounded-lg bg-transparent {selectedModelId
+								class="w-full py-1 text-sm rounded-lg {selectedModelId
 									? ''
-									: 'text-gray-500'} placeholder:text-gray-300 dark:placeholder:text-gray-700 outline-none"
+									: 'text-gray-500'} placeholder:text-gray-300 dark:placeholder:text-gray-700 bg-gray-500/5 outline-none"
 								bind:value={selectedModelId}
 							>
 								<option value="">{$i18n.t('Select a model')}</option>
